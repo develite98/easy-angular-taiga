@@ -1,1 +1,1 @@
-# easy-angular-taiga
+# Easy Angular - Taiga

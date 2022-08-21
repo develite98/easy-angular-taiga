@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@easy-ng/core": ["libs/core/src/index.ts"],
+      "@easy-ng/ui-control": ["libs/ui-control/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

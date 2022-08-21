@@ -1,0 +1,25 @@
+{
+  "projectType": "library",
+  "sourceRoot": "libs/ui-control/src",
+  "prefix": "easy-ng",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/ui-control"],
+      "options": {
+        "jestConfig": "libs/ui-control/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/ui-control/**/*.ts",
+          "libs/ui-control/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

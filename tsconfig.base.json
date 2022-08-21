@@ -16,6 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@easy-ng/core": ["libs/core/src/index.ts"],
+      "@easy-ng/library": ["libs/library/src/index.ts"],
       "@easy-ng/ui-control": ["libs/ui-control/src/index.ts"]
     }
   },

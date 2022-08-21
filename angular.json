@@ -3,6 +3,7 @@
   "version": 2,
   "projects": {
     "core": "libs/core",
+    "library": "libs/library",
     "playground": "apps/playground",
     "ui-control": "libs/ui-control"
   }
